@@ -1,0 +1,34 @@
+# macOS
+**/.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Dev build
+build/
+tmp/
+
+# Test
+*.out
+
+# Environment variables
+.env
+.env.dev
+.env.test
+.env.prod
+
+# Images
+public/photos/rental-house/*
+!public/photos/rental-house/.gitkeep
+public/photos/profile/*
+!public/photos/profile/.gitkeep
+
+docs/*.go
+docs/*.yaml
+docs/*.json
+
+ekira-backend
+docs/docs.go
+docs/swagger.json
+docs/swagger.yaml
